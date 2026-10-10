@@ -194,10 +194,9 @@ python main.py
 Запуск **на сервере** под root:
 
 ```bash
-# Приватный репозиторий — задайте токен для первого клонирования
-GITHUB_TOKEN=ghp_xxx \
+# Запуск скрипта из текущего публичного репозитория
 BRANCH=claude/stoic-bardeen-C3rZP \
-bash <(curl -fsSL https://raw.githubusercontent.com/kirillfomenkov92-crypto/diar_car_buy/claude/stoic-bardeen-C3rZP/deploy.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/1nbott0m/diar_car_buy/claude/stoic-bardeen-C3rZP/deploy.sh)
 ```
 
 Или, если репозиторий уже склонирован:

@@ -18,7 +18,7 @@ set -euo pipefail
 # ─────────────── Настройки ───────────────
 APP_DIR="${APP_DIR:-/root/diar_car_buy}"
 BRANCH="${BRANCH:-claude/stoic-bardeen-C3rZP}"
-REPO_SLUG="kirillfomenkov92-crypto/diar_car_buy"
+REPO_SLUG="1nbott0m/diar_car_buy"
 SERVICE_NAME="diarcarbuy"
 PYTHON="python3"
 
